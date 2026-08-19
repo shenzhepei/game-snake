@@ -1,7 +1,7 @@
-# Garden Snake
+# 花园贪吃蛇
 
 <!-- repo-languages:start -->
-English | [简体中文](README-zh-CN.md)
+[English](README.md) | 简体中文
 <!-- repo-languages:end -->
 
 <!-- repo-badges:start -->
@@ -16,34 +16,34 @@ English | [简体中文](README-zh-CN.md)
 [![Sponsor](https://img.shields.io/github/sponsors/shenzhepei?style=flat-square&logo=githubsponsors&label=Sponsor)](https://github.com/sponsors/shenzhepei)
 <!-- repo-badges:end -->
 
-A polished browser edition of the classic Snake game. It supports keyboard and touch controls, three speed modes, pause and resume, and a locally stored high score.
+经典贪吃蛇的精致浏览器版本，支持键盘和触控操作、三种速度、暂停继续，以及保存在本地的最高分。
 
-[Play Garden Snake](https://shenzhepei.github.io/game-snake/)
+[开始游戏](https://shenzhepei.github.io/game-snake/)
 
-![Garden Snake game board with score and touch controls](docs/preview.jpg)
+![花园贪吃蛇的游戏棋盘、得分与触控按钮](docs/preview.jpg)
 
-## Features
+## 功能
 
-- Deterministic classic Snake rules with wall and self collision
-- Calm, classic, and rapid speed modes
-- Arrow-key, WASD, and touch controls
-- Pause, resume, restart, and game-over states
-- High scores stored locally in the browser
-- Responsive English and Simplified Chinese interface
+- 稳定可测试的经典规则，包含撞墙和碰撞自身判定
+- 悠闲、经典和极速三种速度
+- 方向键、WASD 与触控操作
+- 完整的暂停、继续、重开与结束状态
+- 最高分保存在当前浏览器
+- 完整适配桌面和移动端的中英文界面
 
-## Development
+## 本地开发
 
-Requires Node.js 24 and pnpm 10.33.2.
+需要 Node.js 24 和 pnpm 10.33.2。
 
     corepack enable
     pnpm install
     pnpm dev
 
-Run production and test checks with:
+运行生产构建与测试：
 
     pnpm build
     pnpm test:coverage
 
-## License
+## 许可证
 
-MIT. The original 2020 copyright notice is preserved in [LICENSE](LICENSE).
+MIT。原项目 2020 年的版权声明保留在 [LICENSE](LICENSE) 中。
